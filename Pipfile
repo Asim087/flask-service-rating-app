@@ -1,0 +1,31 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+apscheduler = "*"
+blinker = "*"
+click = "*"
+colorama = "*"
+flask = "*"
+flask-apscheduler = "*"
+flask-login = "*"
+flask-sqlalchemy = "*"
+greenlet = "*"
+itsdangerous = "*"
+jinja2 = "*"
+markupsafe = "*"
+python-dateutil = "*"
+six = "*"
+sqlalchemy = "*"
+typing-extensions = "*"
+tzdata = "*"
+tzlocal = "*"
+werkzeug = "*"
+psycopg2 = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
